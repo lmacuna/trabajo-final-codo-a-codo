@@ -1,0 +1,37 @@
+#theConference,
+#theConference img {
+    height: 86vh;
+    min-height: 400px !important;
+}
+
+#sendGreenBtn {
+    background-color: rgb(167, 199, 97);
+    border: 0px solid green;
+}
+
+#sendGreenBtn:hover {
+    background-color: rgb(149, 182, 79);
+}
+
+footer {
+    background: linear-gradient(to right, rgb(11, 42, 67), rgb(53, 105, 137));
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 1rem 1rem;
+    display: inline-block;
+}
+
+.card-body a {
+    font-size: .7rem;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px lightgray;
+}
+
+.contrast {
+    filter:brightness(50%);
+}
